@@ -14,7 +14,6 @@ import com.patrick.workshopmongo.services.UserService;
 @RestController
 @RequestMapping(value="/users")
 public class UserResources {
-	//private int num;
 	@Autowired
 	private UserService service;
 	
